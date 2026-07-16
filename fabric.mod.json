@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "id": "pvp_tweaks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "PvP Tweaks",
   "authors": [
     "MCreator",
 	"Krontixz"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/pvptweaks",
+    "homepage": "https://modrinth.com/mod/pvp-tweaks",
     "sources": "https://github.com/Krontixz/pvptweaksmod"
   },
   "license": "CC-BY-4.0",
