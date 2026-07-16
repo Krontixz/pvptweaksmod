@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "pvp_tweaks",
+  "version": "1.0.0",
+  "name": "PvP Tweaks",
+  "authors": [
+    "MCreator",
+	"Krontixz"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/pvptweaks",
+    "sources": "https://github.com/Krontixz/pvptweaksmod"
+  },
+  "license": "CC-BY-4.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.krontixz.pvptweaks.PvpTweaksMod"
+    ],
+    "client": [
+      "net.krontixz.pvptweaks.PvpTweaksModClient"
+    ]
+  },
+  "mixins": [
+    "pvp_tweaks.mixins.json"
+  ],
+  "accessWidener": "META-INF/pvp_tweaks.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

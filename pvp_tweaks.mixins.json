@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "net.krontixz.pvptweaks.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "refmap": "pvp_tweaks.refmap.json",
+  "mixins": [
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "ItemStackMixin",
+    "BlockItemMixin",
+    "BoneMealItemMixin",
+    "CommandsMixin",
+    "ExperienceOrbMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}
