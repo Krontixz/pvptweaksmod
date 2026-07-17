@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "pvp_tweaks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "PvP Tweaks",
   "authors": [
     "MCreator",
@@ -27,7 +27,7 @@
   "accessWidener": "META-INF/pvp_tweaks.classtweaker",
   "depends": {
     "fabricloader": ">=0.19.3",
-    "minecraft": "~26.1.2",
+    "minecraft": "~26.2",
     "java": ">=25",
     "fabric-api": "*"
   }
